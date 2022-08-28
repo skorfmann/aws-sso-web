@@ -1,0 +1,36 @@
+{
+  "name": "aws-sso-web",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MPL-2.0",
+  "scripts": {
+    "dev": "node server",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sso": "^3.159.0",
+    "@aws-sdk/client-sso-oidc": "^3.159.0",
+    "@aws-sdk/client-sts": "^3.159.0",
+    "@aws-sdk/protocol-http": "^3.159.0",
+    "@aws-sdk/querystring-builder": "^3.159.0",
+    "@aws-sdk/types": "^3.159.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
